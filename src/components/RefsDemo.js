@@ -20,7 +20,6 @@ class RefsDemo extends Component {
     return (
       <div>
         <h2>Refs Demo</h2>
-
         <input
           type="text"
           ref={this.inputRef}
