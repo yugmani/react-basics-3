@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class RefsDemo extends Component {
   constructor(props) {
     super(props);
+
     this.inputRef = React.createRef();
   }
 
@@ -11,7 +12,7 @@ class RefsDemo extends Component {
     console.log(this.inputRef);
   }
 
-  clickHandler = () => {
+  clickHandler = (e) => {
     alert(this.inputRef.current.value);
   };
 
@@ -19,6 +20,7 @@ class RefsDemo extends Component {
     return (
       <div>
         <h2>Refs Demo</h2>
+
         <input
           type="text"
           ref={this.inputRef}
