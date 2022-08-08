@@ -9,6 +9,7 @@ const GetInputHook = () => {
 
   const logValue = () => {
     console.log(name);
+    return name;
   };
 
   return (
