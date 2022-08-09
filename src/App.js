@@ -16,7 +16,11 @@ export default function App() {
       <PortalDemo />
       <ErrorBoundry>
         <Hero heroName="Broker" />
+      </ErrorBoundry>
+      <ErrorBoundry>
         <Hero heroName="Droker" />
+      </ErrorBoundry>
+      <ErrorBoundry>
         <Hero heroName="Joker" />
       </ErrorBoundry>
     </div>
