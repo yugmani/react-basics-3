@@ -3,6 +3,7 @@ import './style.css';
 import RefsDemo from './components/RefsDemo';
 import GetInput from './components/GetInput';
 import GetInputHook from './components/GetInputHook';
+import PortalDemo from './components/PortalDemo';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <RefsDemo />
       <GetInput />
       <GetInputHook />
+      <PortalDemo />
     </div>
   );
 }
