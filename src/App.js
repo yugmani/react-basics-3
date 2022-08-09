@@ -4,6 +4,8 @@ import RefsDemo from './components/RefsDemo';
 import GetInput from './components/GetInput';
 import GetInputHook from './components/GetInputHook';
 import PortalDemo from './components/PortalDemo';
+import Hero from './components/Hero';
+import ErrorBoundry from './components/ErrorBoundry';
 
 export default function App() {
   return (
@@ -12,6 +14,11 @@ export default function App() {
       <GetInput />
       <GetInputHook />
       <PortalDemo />
+      <ErrorBoundry>
+        <Hero heroName="Broker" />
+        <Hero heroName="Droker" />
+        <Hero heroName="Joker" />
+      </ErrorBoundry>
     </div>
   );
 }
